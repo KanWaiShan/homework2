@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <title>Cantonese affixes questionnaire</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+<form action="http://127.0.0.1:5000/thanks" method = 'POST'>
+    <fieldset>
+        <legend><b><strong>粵語尾綴調查</strong></b></legend>
+        <legend>Hello! I am currently doing my Master's program at Higher School of Economics in the field of Linguistics Theory and Language Description and my paper topic are linguistic differences between Taiwanese, Cantonese and Mandarin. It will only take you 5－10 minutes approximately to finish this simple questionnaire. Thank you in advance for your help!
+            (您好,我是莫斯科高等經濟大學“語言理論與語言描述系”的研究生,正探討“台語，粵語，國語的差異”,將耽誤您 5－10分鐘填寫以下表單,謝謝您！)</legend>
+    </div>
+<div class="row">
+        <p>Please answer below answer in English 請使用英文回答以下問題 </p>
+
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+
+    What is your name?
+    </div>
+    <div class="row">
+
+    <input type="text" name="name" required pattern='[a-zA-Z]+'>
+    </div>
+<div class="row">
+
+     Where were you born? (Please use shortened form and uppercase letters eg. HONGKONG = HK)
+    </div>
+<div class="row">
+
+    <input type="text" name="born" required pattern='[a-zA-Z]+'><br>
+</div>
+    <div class="row">
+
+     Where are you living? (Please use shortened form and uppercase letters eg. TAIWAN = TW) <br>
+    </div>
+    <div class="row">
+
+    <input type="text" name="resident" required pattern='[a-zA-Z]+'><br>
+    </div>
+    <div class="row">
+
+     How old are you? (Please use number)  <br>
+    </div>
+    <div class="row">
+
+    <input type="text" name="age" required pattern='[0-9]+'><br>
+    </div>
+
+
+    <div class="row">
+        <div class="col-6">
+    <p>Gender</p>
+    <input type="radio" value="male" name="gender" ngModel> Male<br>
+    <input type="radio" value="female" name="gender" ngModel> Female<br>
+     </div>
+        <div class="col-6">
+            <p>Are you native Cantonese speaker?.</p>
+    <input type="radio" name="NS" value="yes" checker>YES<br>
+
+    <input type="radio" name="NS" value="no" >NO<br>
+    </div>
+        </div>
+</div>
+<div class="container">
+    <div class="row">
+    <p>Please choose the sentences, which you think are correct.(請選擇您認為正確的句子)</p>
+    </div>
+    <div class="row">
+
+
+        <div class="col-6">
+    <p>1. I put books on the table.</p>
+    <input type="radio" name="q1" value="yes" ngModel>我將啲書放係枱面<br>
+    <input type="radio" name="q1" value="no" ngModel>我將書放係枱面
+        </div>
+        <div class="col-6">
+    <p>2. Carrie Lam's group, don‘t get us into trouble！ </p>
+    <input type="radio" name="q2" value="yes"ngModel>林鄭月娥們, 唔好比麻煩我哋!!!!<br>
+    <input type="radio" name="q2" value="no"ngModel>林鄭月娥, 唔好比麻煩我哋!!!!<br>
+        </div>
+    </div>
+
+
+
+
+    <p><input type="submit" value="Submit"></p>
+
+    </div>
+
+    </fieldset>
+</form>
+<p><a href='/search'>搜索結果</a></p>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
