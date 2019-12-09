@@ -8,6 +8,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="results" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -17,11 +36,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1T2M5FRol1giEl80x1gKxGw9nyh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/flask-learn" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/app.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -30,6 +53,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samsung\PycharmProjects\hw1\static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,7 +101,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -99,15 +127,64 @@
       <updated>1572653552071</updated>
       <workItem from="1572653588138" duration="178000" />
       <workItem from="1572654003555" duration="992000" />
-      <workItem from="1572659909471" duration="36214000" />
+      <workItem from="1572659909471" duration="52987000" />
+      <workItem from="1575669018746" duration="1854000" />
+      <workItem from="1575709481817" duration="847000" />
+      <workItem from="1575747921112" duration="509000" />
+      <workItem from="1575748490512" duration="2107000" />
+      <workItem from="1575752902021" duration="1770000" />
+      <workItem from="1575754987348" duration="1886000" />
+      <workItem from="1575758479724" duration="980000" />
+      <workItem from="1575760773547" duration="1766000" />
+      <workItem from="1575762909145" duration="1276000" />
+      <workItem from="1575793949008" duration="1432000" />
+      <workItem from="1575795681274" duration="1554000" />
+      <workItem from="1575797835739" duration="1839000" />
+      <workItem from="1575799931765" duration="1546000" />
+      <workItem from="1575801672545" duration="1793000" />
+      <workItem from="1575803518441" duration="1784000" />
+      <workItem from="1575805345531" duration="1772000" />
+      <workItem from="1575807163405" duration="1720000" />
+      <workItem from="1575809084546" duration="617000" />
+      <workItem from="1575813869850" duration="1560000" />
+      <workItem from="1575816042340" duration="1773000" />
+      <workItem from="1575817900542" duration="1800000" />
+      <workItem from="1575819752262" duration="1963000" />
+      <workItem from="1575824182590" duration="1758000" />
+      <workItem from="1575826004149" duration="1815000" />
+      <workItem from="1575827883290" duration="68000" />
+      <workItem from="1575828318930" duration="659000" />
+      <workItem from="1575830164217" duration="380000" />
+      <workItem from="1575833974286" duration="2050000" />
+      <workItem from="1575837647722" duration="1775000" />
+      <workItem from="1575840359179" duration="1772000" />
+      <workItem from="1575842185080" duration="1602000" />
+      <workItem from="1575844101387" duration="785000" />
+      <workItem from="1575907210003" duration="1386000" />
+      <workItem from="1575915417117" duration="1798000" />
+      <workItem from="1575918343634" duration="6000" />
+      <workItem from="1575918460000" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hw1$hw1.coverage" NAME="hw1 Coverage Results" MODIFIED="1572661050049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/hw1$app.coverage" NAME="app Coverage Results" MODIFIED="1572747105094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hw1$app.coverage" NAME="app Coverage Results" MODIFIED="1575919282332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
